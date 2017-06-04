@@ -3,6 +3,8 @@
 namespace Vector88\GaeFs;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Storage;
+use League\Flysystem\Filesystem as Flysystem;
 use Vector88\GaeFs\Filesystem\GaeFsAdapter;
 
 class GaeFsServiceProvider extends ServiceProvider {
